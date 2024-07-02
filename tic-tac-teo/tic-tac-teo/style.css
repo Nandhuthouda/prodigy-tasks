@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+	color: aliceblue;
+}
+
+body{
+	background-color: rgb(233, 100, 100);
+	background-image: url(image4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+/* Main Container */
+#main { 
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	/* background-color: transparent; */
+	/* background-image: url(image.jpg);
+	background-position: center;
+	background-size: cover; */
+
+} 
+
+h1 { 
+	color: rgb(255, 255, 255); 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center;
+	background-color: transparent; 
+} 
+.row { 
+	display: flex;
+
+	background: transparent; 
+} 
+.cell { 
+	border: none; 
+	width: 100px; 
+	height: 100px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+/* #b1{ 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b2 { 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b3 { 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b4 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+	
+#b5 { 
+	border: 1px solid gray; 
+} 
+
+#b6 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b7 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b8 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b9 { 
+	border-top: 1px solid gray; 
+	border-left: 1px solid gray; 
+}  */
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid dodgerblue; 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: whitesmoke; 
+	color: dodgerblue; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: dodgerblue; 
+	font-size: 20px; 
+} 
+
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+	Tahoma, sans-serif; 
+	color: rgb(255, 255, 255); 
+}
